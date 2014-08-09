@@ -3,8 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    <GridView android:layout_width="match_parent"
+    <ListView
+        
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:numColumns="2"
-        android:id="@+id/my_stamp_grid"/>
+        android:id="@+id/my_stamp_lv"/>
 </LinearLayout>
